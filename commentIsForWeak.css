@@ -863,3 +863,16 @@ li.diffs-tab > a,
 #state-opened {
     color:#868686;
 }
+
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a ,
+#search::placeholder,
+#project-filter-form-field::placeholder,
+.note-textarea::placeholder {
+    color:#5a5a5a;
+}
+
+textarea::selection,
+input[type=search]::selection{
+    color: #0487ff;
+    background-color: #1a182d;
+}

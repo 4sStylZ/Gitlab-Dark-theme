@@ -882,3 +882,19 @@ input[type=search]::selection{
 .issuable-milestone i{
  color:white !important;
 }
+
+a .badge {
+    color: #fbfbfb;
+    background-color: #333230;
+}
+
+.nav-links li.active a .badge {
+    color: #fbfbfb;
+    background-color: #333230;
+}
+
+.nav-sidebar-inner-scroll,
+.toggle-sidebar-button .js-toggle-sidebar,
+.toggle-sidebar-button, .close-nav-button{
+    background-color: black !important;
+}
